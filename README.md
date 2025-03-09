@@ -1,14 +1,18 @@
-# Five Python Parallelization Methods
+# Four Python Parallelization Methods
 
-This repository demonstrates five different methods to perform parallelization in Python. Each method is implemented to fetch and save the top 250 movies from a website.
+This repository demonstrates four different methods to perform parallelization in Python. Each method is implemented to fetch and save the top 250 movies from a website.
 
 ## Methods
 
-1. **Threading** (`use_threading.py`): Uses `ThreadPool` from the `multiprocessing.pool` module.
-2. **Multiprocessing** (`use_multiprocessing.py`): Uses `Pool` from the `multiprocessing` module.
-3. **ThreadPoolExecutor** (`use_executor.py`): Uses `ThreadPoolExecutor` from the `concurrent.futures` module.
-4. **Asyncio** (`use_asyncio.py`): Uses `asyncio` and `aiohttp` for asynchronous I/O operations.
-5. **Non-concurrent** (`io_non_concurrent.py`): A baseline implementation without any parallelization.
+| Method               | Example Name           | Description                                                   |
+|----------------------|------------------------|---------------------------------------------------------------|
+| **Threading**        | `use_threading.py`     | Uses `ThreadPool` from the `multiprocessing.pool` module.     |
+| **Multiprocessing**  | `use_multiprocessing.py`| Uses `Pool` from the `multiprocessing` module.                |
+| **ThreadPoolExecutor** | `use_executor.py`     | Uses `ThreadPoolExecutor` from the `concurrent.futures` module.|
+| **Asyncio**          | `use_asyncio.py`       | Uses `asyncio` and `aiohttp` for asynchronous I/O operations. |
+
+
+`io_non_concurrent.py`: A baseline implementation without any parallelization.
 
 ## Requirements
 
